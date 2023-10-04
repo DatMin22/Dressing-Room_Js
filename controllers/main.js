@@ -1,16 +1,3 @@
-fetch("../data/Data.json")
-    .then((res) =>
-        res.json()
-
-    )
-    .then((data) => {
-        console.log('data: ', data.navPills[0].tabName);
-        console.log(typeof data); // object
-        // sử dụng data để thêm dữ liệu vào DOM
-    }
-    )
-
-// console.log(navPills.tabName);
 
 const getElement = (selector) => document.querySelector(selector);
 const listtopclothes = [];
